@@ -1,0 +1,34 @@
+set b 99
+set c b
+jnz a 2
+jnz 1 5
+mul b 100
+sub b -100000
+set c b
+sub c -17000 -- starts after here
+set f 1 * from 32 - default loop - doesn't inc h
+set d 2           - d start at 2 
+set e 2 $$$$$$ 24 - e start at 2
+set g d @@@@@@ 20 - g = d = 2+>
+mul g e          ## gd_2+> * e_2+>
+sub g b          ## g = d_2+> * e_2+> - 109_900
+jnz g 2          ## if d * e == 109_900
+set f 0       ````` h ++ 1 if !is_prime(g)
+sub e -1        +++ inc e
+set g e           - g_e
+sub g b           - g_e - 109_900
+jnz g -8       @@@@ if g_e - 109_900 != 0, loop
+sub d -1        +++ inc d
+set g d           - g = d = 3..4..
+sub g b           - g = g_d - 109_900
+jnz g -13      $$$$ if g_d - 109_900 != 0, loop
+jnz f 2       ````` inc h if g not prime
+sub h -1      ````` inc h if g not prime 
+set g b           - g = b = 109_900+17>
+sub g c           - g = 109_900+17> - 126_900 = -17_000
+jnz g 2           -
+jnz 1 3
+sub b -17
+jnz 1 -23
+
+-109869
