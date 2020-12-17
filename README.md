@@ -1,7 +1,8 @@
 elixir solutions for advent of code 2017 (completed while new to elixir 😊)
 
 * [2015](https://github.com/thth/aoc_2015) (elixir)
+* __2017__ (elixir)
 * [2019](https://github.com/thth/aoc_2019) (elixir)
 * [2020](https://github.com/thth/aoc_2020) (elixir)
 
-![](https://user-images.githubusercontent.com/7574985/101267419-50861880-370d-11eb-8074-c1353f7d990f.png)
+![](https://user-images.githubusercontent.com/7574985/102468147-04d54800-4006-11eb-8f73-fa2db0fbb1de.png)
